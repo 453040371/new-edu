@@ -1,0 +1,22 @@
+@charset "utf-8";
+
+body{
+	background-color:#000;
+	width:100%;
+	height:100%;
+	font-family:"微软雅黑",Arial;}
+.cscenter {
+	width:90%;
+	height:100%;
+	max-width:1080px;
+	margin-left:auto;
+	margin-right:auto;
+	padding-top:50px;
+	color:#0F0;
+	
+	}
+.csDiv {  padding-top: 120px;text-align: center;  } 
+.csDiv li{ overflow:hidden;background:#333;height:1px;width:100%; margin-top:50px;}
+.csDivtop { padding: 10px;;text-align: center; font-size:28px; color:#0F0;}
+.csDivtext { padding: 10px; padding-top:50px;text-align: left; font-size:18px; line-height:200%; color:#FFF;text-indent:2em;"}
+.csDivtext img{width: 800px;height: 80% ;max-width: 120px;max-height: 120px; text-align:center; }
