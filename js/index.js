@@ -1,5 +1,5 @@
-$(function() {
 
+$(function() {
  $('#dowebok').fullpage({
  	scrollingSpeed: 700,
   afterLoad: function(anchorLink, index) {
@@ -28,7 +28,6 @@ $(function() {
   $(value).on('click touchstart', function() {
    $(".list-inline li").removeClass("active");
    $(this).addClass('active');
-   console.log(index + 1)
    $.fn.fullpage.moveTo(index + 1, 0);
   })
  })
