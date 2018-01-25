@@ -11,7 +11,8 @@ $(function() {
   }
  });
 
-
+$("#dowebok").css("opacity","1")
+$("header.fixed").css("opacity","1")
  //点击切换显示菜单栏
  $("header .menu-icon span.glyphicon-th-large").bind("click", function() {
   if ($(this).hasClass("active")) {

@@ -454,9 +454,13 @@ section {
 
 
 
-
+header.fixed{
+	opacity: 0;
+}
+#dowebok{
+	opacity: 0;
+}
 /*header*/
-
 #dowebok .bg1 {
  background: url("../images/bg3.jpg") 46% 10% / cover no-repeat;
 }
@@ -469,7 +473,10 @@ section {
  text-align: center;
  color: #fff;
 }
-
+.download{
+	position: relative;
+	z-index: 999;
+}
 .download a {
  font-size: 20px;
  color: #ffd400;
